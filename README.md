@@ -17,8 +17,9 @@ A chrome extension to download tokyomotion video directly from browser, via cURL
 
 You can download videos by opening them on one of the following sites and clicking “Start Download” in the popup window:
 
-- "https://www.tokyomotion.net/*",
-- "https://www.osakamotion.net/*",
+- "https://www.tokyomotion.net/*"
+- "https://www.osakamotion.net/*"
+
 ![alt text](image.jpg)
 
 ## Build
@@ -36,5 +37,6 @@ The avaible settings are currently only:
 -   Activate developer mode
 -   Load unpacked extension
 -   select tokyomotion-crx folder (manifetst.json folder)
+
 
 *by TohoEnjoyer2000*
