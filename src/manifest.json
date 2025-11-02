@@ -5,8 +5,19 @@
     "manifest_version": 3,
     "permissions": [
         "scripting",
-        "activeTab"
+        "activeTab",
+        "downloads",
+        "contextMenus"
     ],
+    "host_permissions": [
+        "https://www.tokyomotion.net/*",
+        "https://www.osakamotion.net/*",
+        "https://*.tokyomotion.net/*",
+        "https://*.osakamotion.net/*"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    },
     "action": {
         "default_popup": "popup/index.html"
     },
@@ -14,7 +25,9 @@
         {
             "matches": [
                 "https://www.tokyomotion.net/video/*",
-                "https://www.osakamotion.net/video/*"
+                "https://www.osakamotion.net/video/*",
+                "https://*.tokyomotion.net/video/*",
+                "https://*.osakamotion.net/video/*"
             ],
             "js": [
                 "background/index.js"

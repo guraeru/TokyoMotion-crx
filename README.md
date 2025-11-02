@@ -11,6 +11,16 @@ A chrome extension to download tokyomotion video directly from browser, via cURL
 
 <hr>
 
+## Main Features (Updated Nov 2025)
+- Download videos from the popup window
+- Easy operation from the extension button
+
+You can download videos by opening them on one of the following sites and clicking “Start Download” in the popup window:
+
+- "https://www.tokyomotion.net/*",
+- "https://www.osakamotion.net/*",
+![alt text](image.jpg)
+
 ## Build
 ```sh
 npm i
